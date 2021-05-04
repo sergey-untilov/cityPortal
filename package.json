@@ -1,0 +1,22 @@
+{
+  "name": "cityportal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cityPortal.js",
+  "scripts": {
+    "init": "ubcli generateDDL -u admin -p admin -host http://localhost:8881 -autorun",
+    "migrate": "ubcli initialize -u admin -p admin -host http://localhost:8881 -m requests",
+    "dev": "ub -dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@unitybase/adminui-pub": "^5.20.11",
+    "@unitybase/adminui-reg": "^5.20.11",
+    "@unitybase/adminui-vue": "^5.20.9",
+    "@unitybase/ub-migrate": "^1.21.2",
+    "@unitybase/ubcli": "^5.21.6",
+    "@unitybase/ubq": "^5.20.11"
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "caption": "Заявки",
+ "description": "Міські заявки",
+ "attributes": [
+   {
+     "name": "reqDate",
+     "caption": "Дата подання",
+     "description": "Дата подання"
+   },
+   {
+     "name": "applicantPhone",
+     "caption": "Телефон заявника",
+     "description": "Телефон заявника"
+   },
+   {
+     "name": "applicantInfo",
+     "caption": "Заявник",
+     "description": "Заявник"
+   },
+   {
+     "name": "department",
+     "caption": "Департамент"
+   },
+   {
+     "name": "subDepartment",
+     "caption": "Підрозділ"
+   },
+   {
+     "name": "reqText",
+     "caption": "Текст",
+     "description": "Текст заявки"
+   },
+   {
+    "name": "reqDoc",
+    "caption":"Додаток",
+    "description" :"Докумет-додаток"
+    },
+    {
+      "name": "answer",
+      "caption": "Відповідь",
+      "description": "Відповідь на заявку"
+    },
+    {
+      "name":"status",
+      "caption": "Стан"
+    }
+ ]
+}
